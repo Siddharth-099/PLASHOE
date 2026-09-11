@@ -1,0 +1,58 @@
+.pka {
+  display: flex;
+  padding: 80px 40px;
+}
+
+.pka2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pkaimage {
+  width: 100%;
+}
+
+.pkam {
+  display: flex;
+}
+
+.pll {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  margin: 0px auto;
+}
+
+.pll1 {
+  width: 50%;
+  display: flex;
+  padding-right: 80px;
+}
+
+.lkj {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.j1 p {
+  margin-bottom: 1em;
+  color: #979a9b;
+  font-size: 18px;
+}
+
+.j2 a {
+    border-bottom: 2px solid #f6aa28;
+    padding: 0px 0px 4px;
+}
+
+.j2 a span {
+    font-size: 14px;
+    color: #262B2C;
+    letter-spacing: 1.3px;
+}

@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 40px;
+  background-color: #f1f1ef;
+}
+
+.navinn {
+  width: 100%;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px !important;
+}
+
+.message {
+  color: blue;
+  color: #979a9b;
+  font-size: 12px;
+  margin: 0;
+}
+
+.navmain {
+  width: 100%;
+  height: 90px;
+}
+
+.navinner {
+  padding: 0px 5px;
+  height: 100%;
+}
+
+.navinnermain {
+  width: 100%;
+  padding: 0px 35px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  height: 100%;
+}
+
+.uili {
+  display: flex;
+}
+
+.uili1 {
+  padding: 0px 14px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 10px;
+  margin: 0;
+}
+
+* a {
+  text-decoration: none;
+}
+
+.ul li {
+  list-style-type: none !important;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ss {
+  color: #979a9b;
+  font-weight: 600;
+  transition: all 0.2s ease-out;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.span {
+  padding: 0px 1rem 0px 0px;
+}
+
+.ss:hover {
+  color: black;
+}
+
+.co {
+  color: black;
+}
+
+.othernav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.ul2 {
+  padding: 0 !important;
+}
+
+.cart {
+  height: 100%;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartcolor {
+  color: black !important;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.oof {
+  max-width: 600px;
+  width: 100% !important;
+}
+
+.offcanvasheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 24.12px;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  z-index: 1;
+  max-height: 3.5em;
+  /* position: absolute; */
+  line-height: 1;
+}
+
+.offcanvastitle {
+  font-size: 18px;
+  margin: 0;
+  color: #262b2c;
+}
+
+.plus {
+  padding: 10px 20px;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: #6e7051;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.minus {
+  background-color: #6e7051;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  padding: 10px 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.plus:hover {
+  background-color: black;
+  color: white;
+}
+.minus:hover {
+  background-color: black;
+  color: white;
+}

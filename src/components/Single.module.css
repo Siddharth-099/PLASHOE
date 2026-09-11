@@ -1,0 +1,169 @@
+.si {
+  background-color: #f1f1ef;
+}
+
+.si1 {
+  max-width: 1240px;
+  padding: 0px 20px;
+  margin: 0px auto;
+  width: 100%;
+  display: flex;
+}
+
+.si2 {
+  margin: 50px 0px 4em;
+  width: 100%;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.sim {
+  padding: 50px;
+  width: 100%;
+  background-color: white;
+}
+
+.sin {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 550px;
+  width: 50%;
+  margin-bottom: 2em;
+}
+
+.imageinfo {
+  width: 46%;
+  margin-bottom: 2em;
+}
+
+.imagehad {
+  margin: 0 0 0.5em 0;
+  font-size: 26px;
+  color: #262b2c;
+  width: 100%;
+}
+
+.sinp {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.2em;
+  color: #979a9b;
+}
+
+.smm2 {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.smm {
+  font-size: 18px;
+}
+
+.all {
+  margin-bottom: 1em;
+  font-size: 18px;
+  color: #979a9b;
+  line-height: 1.8;
+}
+
+.lo {
+  margin: 0 1em 1em 0;
+  display: flex;
+}
+
+.singlebu {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  border: 2px solid black;
+  background-color: #6e7051;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.singlebu:hover {
+  background-color: black;
+  color: white;
+}
+
+.buss {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lkm {
+  padding: 10px 20px;
+  background-color: #979a9b;
+  color: white;
+  border: 2px solid black;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 1em;
+}
+
+.lkm:hover {
+  background-color: black;
+  color: blue;
+}
+
+.ppa {
+  color: white;
+}
+
+.plus {
+  padding: 10px 20px;
+  /* border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  background-color: white;
+  color: #979a9b;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #dddddd;
+}
+
+.minus {
+  border: 1px solid #dddddd;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  color: #979a9b;
+  padding: 10px 20px;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black; */
+}
+
+/* .plus:hover {
+  background-color: black;
+  color: white;
+}
+.minus:hover {
+  background-color: black;
+  color: white;
+} */
+
+.but {
+  display: flex;
+}
+
+.plusminus {
+  margin: 0 1em 1em 0;
+  line-height: 1.8571428571;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spk {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  font-size: 18px;
+  padding: 8.3px 20px;
+  background-color: white;
+}

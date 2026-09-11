@@ -1,0 +1,23 @@
+.look {
+  padding: 0px 40px;
+  display: flex;
+}
+
+.look2 {
+  display: flex;
+  margin: 0px auto;
+  padding: 48px 0px;
+}
+
+.llp {
+  display: flex;
+}
+
+.llp h1 {
+  margin: 0;
+  letter-spacing: -2px;
+  line-height: 1.4em;
+  font-size: 4rem;
+  font-weight: 500;
+  text-align: center;
+}

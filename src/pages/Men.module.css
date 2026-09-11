@@ -1,0 +1,102 @@
+.mensec {
+  background-color: #f1f1ef;
+}
+.men {
+  max-width: 1280px;
+  display: flex;
+  margin: 0px auto;
+  padding: 0px 20px;
+  width: 100%;
+}
+
+.meninner {
+  margin: 50px 0px 4em 0px;
+  max-width: 1240px;
+  width: 100%;
+}
+
+.menmain {
+  max-width: 1240px;
+  width: 100%;
+}
+
+.meni1 {
+  padding: 50px;
+  background-color: white;
+  width: 100%;
+}
+
+.hh h1 {
+  margin-bottom: 1em;
+  font-weight: 400;
+  color: #6e7051;
+  /* font-size: 72px !important; */
+  font-size: 4rem;
+  line-height: 1.4em;
+}
+
+.prodcutinfo {
+  margin: 0px 0px 2.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info11 {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.infobu {
+  display: flex;
+  align-items: center;
+  padding: 0.67em 1em;
+  background-color: #6e7051;
+}
+
+.ic {
+  color: white;
+}
+
+.bu2 {
+  margin-left: 0.5em;
+  font-size: 1.07em;
+  color: white;
+}
+
+.bup {
+  padding: 4px 0;
+  line-height: 1;
+  font-size: 18px;
+  color: #979a9b;
+}
+
+.info22 {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.select {
+  padding: .5em;
+  color: #666666;
+  font-size: 18px;
+}
+
+
+.product {
+  max-width: 100%;
+}
+
+.productdata {
+  margin: 40px 0px 0px;
+}
+
+.productimage {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 20px;
+}
+
+
