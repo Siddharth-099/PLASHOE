@@ -1,6 +1,6 @@
 import React, { act, useReducer } from 'react'
 import { NavLink, useParams } from 'react-router-dom'
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { myContext } from '../useContext/UseContext';
 import style from './Single.module.css';
 import { useNavigate } from 'react-router-dom';
@@ -21,6 +21,8 @@ const reducer = (state, action) => {
 }
 
 const SingleProduct = () => {
+
+    const [showMessage, setShowMessage] = useState(false);
 
     const { id } = useParams();
     console.log(id);
@@ -52,6 +54,20 @@ const SingleProduct = () => {
                 <div className={style.si1}>
                     <div className={style.si2}>
                         <div className={style.sim}>
+
+                            <div className={showMessage ? style.messageShow : style.message}>
+                                <div className={style.message2}>
+                                    <div className={style.q1}>
+                                        <i className={`${style.color} fa-solid fa-circle-check`}></i>
+                                        <span> {count} {product.name} have been added to your cart.</span>
+                                    </div>
+                                    <div className={style.q2}>
+                                        <NavLink className={style.butt}>VIEW CART</NavLink>
+                                    </div>
+
+                                </div>
+                            </div>
+
                             <div className={style.sin}>
                                 <div className={`${style.image}`}>
                                     {
@@ -99,11 +115,12 @@ const SingleProduct = () => {
                                             </div>
 
                                             <div>
-                                                <button className={style.singlebu}>
+                                                <button className={style.lkm1} onClick={() => setShowMessage(true)}>
                                                     ADD TO CART
                                                 </button>
                                             </div>
                                         </div>
+
 
 
                                         {/* <button className={style.lkm}>

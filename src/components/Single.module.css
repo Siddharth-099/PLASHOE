@@ -119,9 +119,6 @@
 
 .plus {
   padding: 10px 20px;
-  /* border-left: 2px solid black;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black; */
   background-color: white;
   color: #979a9b;
   transition: all 0.3s ease-in-out;
@@ -134,20 +131,7 @@
   transition: all 0.3s ease-in-out;
   color: #979a9b;
   padding: 10px 20px;
-  /* border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black; */
 }
-
-/* .plus:hover {
-  background-color: black;
-  color: white;
-}
-.minus:hover {
-  background-color: black;
-  color: white;
-} */
-
 .but {
   display: flex;
 }
@@ -166,4 +150,60 @@
   font-size: 18px;
   padding: 8.3px 20px;
   background-color: white;
+}
+
+.message {
+  width: 100%;
+  display: none;
+}
+
+.messageShow {
+  width: 100%;
+  display: block;
+}
+
+.message2 {
+  padding: 1em 2em 1em 3.5em;
+  margin: 0 0 2em;
+  position: relative;
+  background-color: rgb(247.1638414634, 246.3361585366, 246.9957183689);
+  color: #515151;
+  border-top: 3px solid #a46497;
+  list-style: none outside;
+  border-top: 3px solid #6e7051;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.q1 {
+  margin: 2em 0px 0px;
+}
+
+.color {
+  font-size: 18px;
+  color: #6e7051;
+}
+
+.butt {
+  border: 2px solid #6e7051;
+  background-color: #6e7051;
+  padding: 18px 30px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  position: relative;
+  color: white;
+}
+
+.lkm1 {
+  background-color: #6e7051;
+  padding: 14px 30px;
+  color: white;
+}
+
+.lkm1:hover {
+  background-color: black;
+  color: white;
 }
