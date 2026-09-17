@@ -66,7 +66,7 @@ const SingleProduct = () => {
                                     </div>
 
                                 </div>
-                            </div>
+                            </div> 
 
                             <div className={style.sin}>
                                 <div className={`${style.image}`}>
