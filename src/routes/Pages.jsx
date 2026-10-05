@@ -11,6 +11,7 @@ import Contact from '../pages/Contact';
 import OurStory from '../pages/OurStory';
 import Foot from '../components/Foot';
 import SingleProduct from '../components/SingleProduct';
+import Shop from '../components/Shop';
 
 const main = createBrowserRouter([
     {
@@ -54,6 +55,10 @@ const main = createBrowserRouter([
             {
                 path: '/singleproduct/:id',
                 element: <SingleProduct />
+            },
+            {
+                path: '/shop',
+                element: <Shop />
             }
         ]
     }

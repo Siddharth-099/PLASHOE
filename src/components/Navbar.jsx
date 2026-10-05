@@ -2,6 +2,7 @@ import React, { useReducer } from 'react'
 import style from './Navbar.module.css';
 import { Outlet, NavLink } from 'react-router-dom';
 import Foot from './Foot';
+import Shop from './Shop';
 
 
 const reducer = (state, action) => {
@@ -88,6 +89,9 @@ const Navbar = () => {
 
                             <div className={style.cart}>
                                 <div>
+                                    {/* <NavLink to={`/shop>`}>
+                                        <i data-bs-toggle="offcanvas" data-bs-target="#demo" className={`${style.cartcolor} fa-solid fa-bag-shopping`} ></i>
+                                    </NavLink> */}
                                     <a href="#">
                                         <i data-bs-toggle="offcanvas" data-bs-target="#demo" className={`${style.cartcolor} fa-solid fa-bag-shopping`} ></i>
                                     </a>
@@ -102,7 +106,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav >
             <Outlet />
 
             <Foot />

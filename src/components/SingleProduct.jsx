@@ -59,14 +59,14 @@ const SingleProduct = () => {
                                 <div className={style.message2}>
                                     <div className={style.q1}>
                                         <i className={`${style.color} fa-solid fa-circle-check`}></i>
-                                        <span> {count} {product.name} have been added to your cart.</span>
+                                        <span> {count} {product.name} × have been added to your cart.</span>
                                     </div>
                                     <div className={style.q2}>
                                         <NavLink className={style.butt}>VIEW CART</NavLink>
                                     </div>
 
                                 </div>
-                            </div> 
+                            </div>
 
                             <div className={style.sin}>
                                 <div className={`${style.image}`}>
