@@ -1,16 +1,83 @@
-# React + Vite
+# 👟 PLASHOE – Shoe Shopping Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PLASHOE is a responsive shoe shopping website developed using modern frontend technologies. The project focuses on creating an attractive and user-friendly interface for browsing and exploring footwear products.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Frontend
 
-## React Compiler
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Bootstrap
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* Responsive shoe shopping interface.
+* Shoe product listing and display.
+* Attractive and user-friendly UI.
+* Interactive frontend components.
+* Responsive design for different screen sizes.
+* Dynamic UI functionality using React.js.
+* Smooth and user-friendly browsing experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+PLASHOE/
+│
+├── public/
+├── src/
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── other configuration files
+```
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Siddharth-099/PLASHOE.git
+```
+
+### 2. Navigate to Project Folder
+
+```bash
+cd PLASHOE
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the website.
+
+## 🚧 Project Status
+
+**Currently Under Development**
+
+PLASHOE is an ongoing project. New features, improvements, and functionalities are being added regularly.
+
+The goal is to develop a responsive and user-friendly shoe shopping website.
+
+## 👨‍💻 Developer
+
+**Siddharth Patel**
+
+* GitHub: https://github.com/Siddharth-099
+
+---
+
+⭐ Feel free to explore the repository!
